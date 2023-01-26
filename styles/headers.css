@@ -54,3 +54,22 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.container_titulo{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container_titulo, 
+    .negrito_titulo {
+        font-family: var(--fonte-secundaria);
+    }
+    .negrito_titulo{
+        font-weight: 700;
+        
+    }
+    .container_titulo{
+        font-weight: 400;
+        display: block;
+    }
+}
