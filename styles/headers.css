@@ -92,4 +92,12 @@
     .cabecalho__menu-hamburger{
         display: none;
     }
+    .opcoes-botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes-botao{
+        display: none;
+    }
+
 }
