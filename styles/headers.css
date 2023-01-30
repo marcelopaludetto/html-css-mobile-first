@@ -59,6 +59,9 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
 @media screen and (min-width: 1024px) {
     .container_titulo, 
     .negrito_titulo {
@@ -71,5 +74,22 @@
     .container_titulo{
         font-weight: 400;
         display: block;
+    }
+
+    .opcoes{
+        display:flex;
+    }
+    .opcoes-items{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoes-link{
+        text-decoration: none;
+    }
+    .container-desaparece{
+        display: none;
+    }
+    .cabecalho__menu-hamburger{
+        display: none;
     }
 }
